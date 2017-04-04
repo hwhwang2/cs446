@@ -1,8 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1491337351 "hw5_hwhwang2.tex" "hw5_hwhwang2.pdf" "hw5_hwhwang2" 1491337352
+["pdflatex"] 1491342299 "hw5_hwhwang2.tex" "hw5_hwhwang2.pdf" "hw5_hwhwang2" 1491342300
   "./fig1.png" 1491323514 29562 946856672fa3bd24c45c43ac5672a1d7 ""
   "./fig2.png" 1491323514 26507 0662bbfedb65b49320d0df1a5936b231 ""
   "./fig3.png" 1491323514 12735 821dea6882a59a5f0b13fb6b55f46b54 ""
+  "./fig4.png" 1491339953 111524 54197692f055b968cb7a51e9963752de ""
+  "./fig5.png" 1491339964 66470 a3209106db4570a053c57889ea7e1573 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -86,12 +88,14 @@
   "fig1.png" 1491323514 29562 946856672fa3bd24c45c43ac5672a1d7 ""
   "fig2.png" 1491323514 26507 0662bbfedb65b49320d0df1a5936b231 ""
   "fig3.png" 1491323514 12735 821dea6882a59a5f0b13fb6b55f46b54 ""
-  "hw5_1.tex" 1491337350 4197 dfb95bfbbc5015f57357f531a082ecea ""
-  "hw5_2.tex" 1491323514 4244 0593d914366124b5a563e0cdae266ce5 ""
-  "hw5_3.tex" 1491323514 1830 fc6cb48e99ba920d31bb02a84786a579 ""
-  "hw5_hwhwang2.aux" 1491337352 8 a94a2480d3289e625eea47cd1b285758 ""
-  "hw5_hwhwang2.tex" 1491323514 825 d6b7b9803bce6ce60913be9771ac9cea ""
+  "fig4.png" 1491339953 111524 54197692f055b968cb7a51e9963752de ""
+  "fig5.png" 1491339964 66470 a3209106db4570a053c57889ea7e1573 ""
+  "hw5_1.tex" 1491340955 6304 7d13a2e11a5b836f774ff3b0dcc56b46 ""
+  "hw5_2.tex" 1491341117 4148 9104595d93f9b11f6be0682a3c3dcf64 ""
+  "hw5_3.tex" 1491342298 2120 87633165b13f09b89e0fc6a67901b6e6 ""
+  "hw5_hwhwang2.aux" 1491342300 8 a94a2480d3289e625eea47cd1b285758 ""
+  "hw5_hwhwang2.tex" 1491341009 836 bab2250fe5e5cc87bd0da56cb85b4138 ""
   (generated)
   "hw5_hwhwang2.log"
-  "hw5_hwhwang2.pdf"
   "hw5_hwhwang2.aux"
+  "hw5_hwhwang2.pdf"

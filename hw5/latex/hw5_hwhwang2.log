@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.25)  4 APR 2017 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.25)  4 APR 2017 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -300,65 +300,95 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--131
  []
 
 
-Overfull \hbox (27.88234pt too wide) in paragraph at lines 102--131
+Overfull \hbox (27.88226pt too wide) in paragraph at lines 102--131
+[] 
+ []
+
+[2
+
+ <./fig1.png> <./fig2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 132--168
+
+ []
+
+
+Overfull \hbox (27.88226pt too wide) in paragraph at lines 132--168
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--168
 
  []
 
-) [2
+[3
 
- <./fig1.png> <./fig2.png>] (./hw5_2.tex
-<fig3.png, id=25, 297.11pt x 239.89626pt>
+] <fig4.png, id=28, 507.3354pt x 343.0416pt>
+File: fig4.png Graphic file (type png)
+ <use fig4.png>
+Package pdftex.def Info: fig4.png used on input line 173.
+(pdftex.def)             Requested size: 328.82706pt x 222.34625pt.
+
+<fig5.png, id=29, 507.3354pt x 343.0416pt>
+File: fig5.png Graphic file (type png)
+ <use fig5.png>
+Package pdftex.def Info: fig5.png used on input line 179.
+(pdftex.def)             Requested size: 328.82706pt x 222.34625pt.
+) [4
+
+ <./fig4.png> <./fig5.png>] (./hw5_2.tex <fig3.png, id=35, 297.11pt x 239.89626
+pt>
 File: fig3.png Graphic file (type png)
- <use fig3.png>
-Package pdftex.def Info: fig3.png used on input line 22.
-(pdftex.def)             Requested size: 328.82706pt x 265.51927pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--25
+<use fig3.png>
+Package pdftex.def Info: fig3.png used on input line 22.
+(pdftex.def)             Requested size: 187.89912pt x 151.72112pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
 
-[3]) (./hw5_3.tex [4 <./fig3.png>]) [5] (./hw5_hwhwang2.aux) ) 
+ []
+
+[5
+
+ <./fig3.png>]) (./hw5_3.tex [6]) [7] (./hw5_hwhwang2.aux) ) 
 Here is how much of TeX's memory you used:
- 3764 strings out of 493089
- 55104 string characters out of 6134842
- 122685 words of memory out of 5000000
- 7182 multiletter control sequences out of 15000+600000
+ 3774 strings out of 493089
+ 55222 string characters out of 6134842
+ 121685 words of memory out of 5000000
+ 7190 multiletter control sequences out of 15000+600000
  10059 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,38p,958b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on hw5_hwhwang2.pdf (5 pages, 198594 bytes).
+</usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on hw5_hwhwang2.pdf (7 pages, 315118 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

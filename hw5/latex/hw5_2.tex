@@ -19,9 +19,9 @@ All vs. all.\\
 According to the analysis above, both method achieve the same computational complexity. However, it is possible that sets between all pairs of labels are linear separable but not separable when considering the set of one label to the union set of all other labels. If that happens, all-vs-all method can classify the examples well, but one-vs-one method cannot. For example, there are 3 sets of examples in 3 labels shown in figure. Using one-vs-all method is impossible to find a linear classifier telling the set in red. On the other hand, using all-vs-all method, all pairs of sets are linear separable generating corresponding classifiers telling each pair of sets. The examples can be classified correctly. Thus, all vs. all is a better choice.\\
 \begin{figure}[h]
 		\centering
-	\includegraphics[width=0.7\textwidth]{fig3.png}
-	% \caption{The hidden layer h between word input and word probability output. ~\citep{rong:2014}}
-\end{figure}\\
+	\includegraphics[width=0.4\textwidth]{fig3.png}
+\end{figure}\\\\
+
 \item[(c)]
 A \textsc{KernelPerceptron} can extend the space of the examples into another space in higher order and possibly separate the examples in the new space. Considering the same linear separability issue in the higher order space as we had in (b), all-vs-all method will outperform one-vs-one method. Besides, kernel functions should work in dual mode because most of kernel functions cannot find a transfer function from original space to the higher order space, but can calculate the inner product of two vectors. That means the computational complexity of these two methods when classifying is proportional to the training examples and the number of the classifiers. Thus, the computational complexity for one-vs-all method is $O(mk)$ and the computational complexity for all-vs-all method is $O(k(k-1)/2\times 2m/k)=O(km)$. Thus, after considering performance and complexity, I still choose all vs. all.
 

@@ -100,7 +100,7 @@ Back propagation rule at node j:
 	\end{figure}
 	\item[ii.]
 	 For data set mnist, listed in descending order of accuracy : \\\\
-	\begin{tabular}{ | l | l | l | l | l |  }
+	\begin{tabular}{ | c | c | c | c | c |  }
 	\hline
 		batch\_size & activation\_function & learning\_rate & hidden\_layer\_width & Accuracy   \\ \hline
 		10 & tanh & 0.1 & 10 & 96.9783  \\ \hline
@@ -130,8 +130,62 @@ Back propagation rule at node j:
 	\end{tabular}
 	\clearpage
 	For data set circles, listed in descending order of accuracy : \\\\
-
+	\begin{tabular}{ | c | c | c | c | c | }
+	\hline
+		batch\_size & activation\_function & learning\_rate & hidden\_layer\_width & Accuracy \\ \hline
+		10 & tanh & 0.1 & 10 & 100 \\ \hline
+		10 & tanh & 0.1 & 50 & 100 \\ \hline
+		10 & relu & 0.1 & 10 & 100 \\ \hline
+		10 & relu & 0.1 & 50 & 100 \\ \hline
+		10 & relu & 0.01 & 10 & 100 \\ \hline
+		10 & relu & 0.01 & 50 & 100 \\ \hline
+		50 & relu & 0.1 & 10 & 100 \\ \hline
+		50 & relu & 0.1 & 50 & 100 \\ \hline
+		100 & relu & 0.1 & 10 & 100 \\ \hline
+		100 & relu & 0.1 & 50 & 100 \\ \hline
+		50 & relu & 0.01 & 50 & 95.25 \\ \hline
+		100 & relu & 0.01 & 50 & 80.375 \\ \hline
+		50 & relu & 0.01 & 10 & 64.125 \\ \hline
+		50 & tanh & 0.1 & 50 & 61.375 \\ \hline
+		100 & relu & 0.01 & 10 & 60.5 \\ \hline
+		50 & tanh & 0.1 & 10 & 55 \\ \hline
+		10 & tanh & 0.01 & 10 & 51.625 \\ \hline
+		10 & tanh & 0.01 & 50 & 51.125 \\ \hline
+		100 & tanh & 0.01 & 10 & 51 \\ \hline
+		100 & tanh & 0.01 & 50 & 50.25 \\ \hline
+		50 & tanh & 0.01 & 10 & 49.875 \\ \hline
+		50 & tanh & 0.01 & 50 & 49.75 \\ \hline
+		100 & tanh & 0.1 & 10 & 49.375 \\ \hline
+		100 & tanh & 0.1 & 50 & 49.375 \\ \hline
+	\end{tabular}
+	\\\\
+	Thus, I will choose parameters as the following table.\\\\
+	\begin{tabular}{ | c | c | c | c | }
+		\hline
+		batch\_size & activation\_function & learning\_rate & hidden\_layer\_width\\ \hline
+		10 & tanh & 0.1 & 10  \\ \hline
+	\end{tabular}
+	\clearpage
 	\item[iii.]
+	Iteration vs. Accuracy in mnist data set for neural network and perceptron: 
+	\begin{figure}[h]
+  		\centering
+    	\includegraphics[width=0.7\textwidth]{fig4.png}
+	\end{figure}	
+	\\
+	Iteration vs. Accuracy in circles data set for neural network and perceptron:
+	\begin{figure}[h]
+  		\centering
+    	\includegraphics[width=0.7\textwidth]{fig5.png}
+	\end{figure}	
+	\\
+	Accuracy(\%) for both algorithm in different data sets:\\
+	\begin{tabular}{ | c | c | c | c | }
+		\hline
+		\multicolumn{2}{|c|}{mnist dataset} & \multicolumn{2}{c|}{circles dataset} \\ \hline
+		Neural Network & Perceptron & Neural Network & Perceptron \\ \hline
+		96.7238 & 88.8609 & 100 & 49.5  \\ \hline
+	\end{tabular}
 
-		
+
 	\end{itemize}
