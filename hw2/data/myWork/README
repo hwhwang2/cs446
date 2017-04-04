@@ -1,0 +1,78 @@
+README
+File Structure 
+#   data/__________badges/
+#			|
+#			|_____decision-trees/
+#			|
+#			|_____badges.example.arff
+#			|
+#			|_____myCode/ (folder for this code)__________README
+#													|
+#													|_____run.bash
+#													|
+#													|_____FeatureGenerator_mod.java
+#													|
+#													|_____Data.java	
+#													|
+#													|_____Dataset.java
+#													|
+#													|_____Sgd.java	
+#													|
+#													|_____WekaDT2.java
+#													|
+#													|_____WekaDT3.java
+#													|
+#													|_____WekaDT4.java	
+#													|
+#													|_____WekaDT_Sgd.java
+run.bash
+Create folders, compile all files, and run all main() functions in all codes automatically.
+
+
+FeatureGenerator_mod.java
+	Function:	
+		Create *.arff file from input data
+	To execute:
+		FeatureGenerator_mod input-badges-file features-file
+Data.java
+	Function:	
+		Save attributes and label. Used in Sgd.
+	To execute:
+		1. Data(double[] att, double la): input attributes array and label
+		2. Data(String line): input String line from data lines of a *.arff file	
+Dataset.java
+	Function:	
+		Save Datas.
+	To execute:
+		1. Dataset(String datapath): input *.arff file. will generate dataset automatically.
+		2. Dataset(): generate an empty dataset
+Sgd.java
+	Function:	
+		Perform stochastic gradient descent algorithm
+	To execute:
+		1. Sgd(Dataset train, double lr, double thre): input training dataset, learning rate, threshold of training error.
+		2. public double errorRate(Dataset test): will use input test dataset and report error rate.
+		3. public int[] errorCorrectTimes(Dataset test): will use input test dataset and report array {times of error, times of correct}
+		4. public static void main(String[] args): run cross validation for 5 folds offered and print the result
+WekaDT2.java
+	Function:	
+		Perform decision tree algorithm
+	To execute:
+		1. public static void main(String[] args): run cross validation for 5 folds offered and generate a result report at ./report
+WekaDT3.java
+	Function:	
+		Perform decision tree algorithm of depth 4
+	To execute:
+		1. public static void main(String[] args): run cross validation for 5 folds offered and generate a result report at ./report	
+WekaDT4.java
+	Function:	
+		Perform decision tree algorithm of depth 8
+	To execute:
+		1. public static void main(String[] args): run cross validation for 5 folds offered and generate a result report at ./report	
+WekaDT_Sgd.java
+	Function:	
+		Perform decision stumps + stochastic gradient descent algorithm 
+	To execute:
+		1. public static void main(String[] args): run cross validation for 5 folds offered and print the result
+		2. 3 Parameters could be modified, numTree modifies number of trees, sampleRatio modifies training data sampling ratio, and treeDepth modifies the max depth of each tree.
+

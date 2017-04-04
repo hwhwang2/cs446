@@ -1,0 +1,43 @@
+\item[(a)]
+The radii of the examples are the learning targets. If the example is positive, $r_2$ should be adjusted larger or equal to the radius of the example. On the other hand, if the example is negative, $r_1$ should be adjusted larger or equal to the radius of the example and $r_2$ should be larger or equal to $r_1$.\\
+\textbf{An algorithm for learning: }\\ 
+ \textit{Initialize: first positive example $x_1$, set $r_1 = |x_1|, r_2 = |x_1|$}\\
+\textit{for all positive examples}\\
+\hspace*{0cm} \textit{if $|x| > r_2$}\\
+\hspace*{0.5cm} \textit{set $r_2 = |x|$}\\ 
+\hspace*{0cm} \textit{if $|x| < r_1$}\\
+\hspace*{0.5cm} \textit{set $r_1 = |x|$}\\ 
+\item[(b)]
+\begin{itemize}
+\item[i.]
+Only the examples satisfying  $r_1 \le |x| \le r_2$ are considered as positive by the classifier. Thus, the region out of learned function, $h_{r_1,r_2}$ but in target function, $h^*_{r_1^*,r_2^*}$, is the place misclassification happens which is $r_1^* \leq |x| \leq r_1$ or $r_2 < |x|_2 \leq r_2^*$.   
+\item[ii.]
+As mentioned, the fail rate of classification for one example is $\epsilon$. Thus, the probability that consistent with m examples is :
+\begin{equation*}
+	(1 - \epsilon)^m 
+\end{equation*}
+\end{itemize}
+\item[(c)]
+Assume the set $H_e$ is a subset of $H$ that any function $g$ in $H_e$ satisfies $Error(g) > \epsilon$. The probability that g is consistent with m examples is bounded by $(1 - \epsilon)^m $ which means that $P(g \in H_e\mbox{ consistent with m examples}) \le (1 - \epsilon)^m$. Thus, the probability we get h in $H_e$:
+% \begin{equation*}
+% 	\int \int_{\forall(r_2, r_1) \in M} 
+% 	(\frac{ {r_2}^2 -  {r_1}^2} {  {r_2^*}^2 -  {r_1^*}^2})^m dr_2 dr_1 \le ({r_2^*} -  {r_1^*})^2(1 - \epsilon)^m < \delta
+% \end{equation*}
+
+\begin{equation*}
+	P(|H_e|/|H|) * P(g \in H_e\mbox{ consistent with m examples}) \le 1 * (1 - \epsilon)^m <  \delta
+\end{equation*}
+\begin{equation*}
+	\Rightarrow  e^{-\epsilon m} < \delta
+	\Rightarrow - \epsilon m < \ln \delta 
+	\Rightarrow m > \frac{1}{\epsilon}  \ln \frac{1}{\delta}
+\end{equation*}
+\item[(d)]
+VC = 2 (Similar to VC(intervals)). According to the formula mentioned in the slide, 
+\begin{equation*}
+	 m > \frac{1}{\epsilon}\{ 8VC(H) \log \frac{13}{\epsilon} + 4\log \frac{2}{\delta} \}  
+	\Rightarrow m > \frac{1}{\epsilon}\{ 16 \log \frac{13}{\epsilon} + 4\log \frac{2}{\delta} \} 
+\end{equation*}
+
+
+

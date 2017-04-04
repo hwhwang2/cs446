@@ -1,0 +1,69 @@
+ID3
+
+lastName0=m = 1
+|  firstName2=e = 1: +
+|  firstName2=e = 0
+|  |  lastName1=o = 1: +
+|  |  lastName1=o = 0
+|  |  |  firstName0=p = 1: -
+|  |  |  firstName0=p = 0
+|  |  |  |  firstName0=r = 1: -
+|  |  |  |  firstName0=r = 0
+|  |  |  |  |  firstName0=y = 1: -
+|  |  |  |  |  firstName0=y = 0
+|  |  |  |  |  |  firstName1=u = 1: -
+|  |  |  |  |  |  firstName1=u = 0
+|  |  |  |  |  |  |  lastName3=a = 1
+|  |  |  |  |  |  |  |  firstName3=r = 1: +
+|  |  |  |  |  |  |  |  firstName3=r = 0: -
+|  |  |  |  |  |  |  lastName3=a = 0: +
+lastName0=m = 0
+|  lastName1=l = 1
+|  |  firstName0=d = 1: -
+|  |  firstName0=d = 0: +
+|  lastName1=l = 0
+|  |  lastName2=l = 1
+|  |  |  firstName2=r = 1: -
+|  |  |  firstName2=r = 0
+|  |  |  |  lastName4=n = 1: -
+|  |  |  |  lastName4=n = 0
+|  |  |  |  |  firstName2=h = 1: -
+|  |  |  |  |  firstName2=h = 0: +
+|  |  lastName2=l = 0
+|  |  |  lastName2=o = 1
+|  |  |  |  firstName0=b = 1: -
+|  |  |  |  firstName0=b = 0: +
+|  |  |  lastName2=o = 0
+|  |  |  |  firstName3=f = 1: +
+|  |  |  |  firstName3=f = 0
+|  |  |  |  |  lastName4=l = 1
+|  |  |  |  |  |  firstName2=h = 1: -
+|  |  |  |  |  |  firstName2=h = 0
+|  |  |  |  |  |  |  lastName0=l = 1: -
+|  |  |  |  |  |  |  lastName0=l = 0
+|  |  |  |  |  |  |  |  lastName0=q = 1: -
+|  |  |  |  |  |  |  |  lastName0=q = 0: +
+|  |  |  |  |  lastName4=l = 0
+|  |  |  |  |  |  firstName1=o = 1
+|  |  |  |  |  |  |  lastName0=f = 1: -
+|  |  |  |  |  |  |  lastName0=f = 0
+|  |  |  |  |  |  |  |  firstName2=e = 1: -
+|  |  |  |  |  |  |  |  firstName2=e = 0: +
+|  |  |  |  |  |  firstName1=o = 0
+|  |  |  |  |  |  |  lastName0=l = 1
+|  |  |  |  |  |  |  |  firstName1=a = 1: -
+|  |  |  |  |  |  |  |  firstName1=a = 0: +
+|  |  |  |  |  |  |  lastName0=l = 0
+|  |  |  |  |  |  |  |  lastName3=m = 1: +
+|  |  |  |  |  |  |  |  lastName3=m = 0: -
+
+
+Correctly Classified Instances          29               63.0435 %
+Incorrectly Classified Instances        17               36.9565 %
+Kappa statistic                          0.2692
+Mean absolute error                      0.394 
+Root mean squared error                  0.5435
+Relative absolute error                 79.3656 %
+Root relative squared error            109.1136 %
+Total Number of Instances               46     
+

@@ -1,0 +1,58 @@
+\item[(a)(b)] \ \\
+      \begin{tabular}{|c|c||c|c|c|c||c|c|c|c|}
+        \hline
+        & & \multicolumn{4}{c||}{Hypothesis 1} & \multicolumn{4}{c|}{Hypothesis 2} \\
+        \cline{3-10}
+        {\em i} & Label & $D_0$ & $f_1 \equiv $ & $f_2 \equiv $ & $h_1\equiv$ & $D_1$ &  $f_1 \equiv $ & $f_2 \equiv $ & $h_2 \equiv $ \\
+        & & & [$x >$2$\;$] & [$y >$6$\;$] & [$x >$2$\;$] & & [$x >$9$\;$] & [$y >$11$\;$] & [$y >$11$\;$] \\
+
+        \tiny{(1)} & \tiny{(2)} & \tiny{(3)} & \tiny{(4)} &  \tiny{(5)} & \tiny{(6)} & \tiny{(7)} & \tiny{(8)} & \tiny{(9)} & \tiny{(10)}\\
+        \hline \hline
+        {\em 1} & $-$ &0.1&$-$&$+$&$-$&$\frac{1}{16}$&$-$&$-$&$-$  \\
+        \hline
+        {\em 2} & $-$ &0.1&$-$&$-$&$-$&$\frac{1}{16}$&$-$&$-$&$-$  \\
+        \hline
+        {\em 3} & $+$ &0.1&$+$&$+$&$+$&$\frac{1}{16}$&$-$&$-$&$-$ \\
+        \hline
+        {\em 4} & $-$ &0.1&$-$&$-$&$-$&$\frac{1}{16}$&$-$&$-$&$-$ \\
+        \hline
+        {\em 5} & $-$ &0.1&$-$&$+$&$-$&$\frac{1}{16}$&$-$&$+$&$+$ \\
+        \hline
+        {\em 6} & $-$ &0.1&$+$&$+$&$+$&$\frac{1}{4}$&$-$&$-$&$-$ \\
+        \hline
+        {\em 7} & $+$ &0.1&$+$&$+$&$+$&$\frac{1}{16}$&$+$&$-$&$-$ \\
+        \hline
+        {\em 8} & $-$ &0.1&$-$&$-$&$-$&$\frac{1}{16}$&$-$&$-$&$-$ \\
+        \hline
+        {\em 9} & $+$ &0.1&$-$&$+$&$-$&$\frac{1}{4}$&$-$&$+$&$+$ \\
+        \hline
+        {\em 10} & $+$ &0.1&$+$&$+$&$+$&$\frac{1}{16}$&$-$&$-$&$-$ \\
+        \hline
+      \end{tabular}
+\item[(c)]
+\begin{equation*}
+\epsilon_1 = \frac{2}{10}, \alpha_1 = \frac{1}{2} \ln{(1-\epsilon_1)/\epsilon_1} = \ln2, D_0 = \frac{1}{10},
+\end{equation*}
+\begin{equation*}
+ z_0 = \sum D_0(i)\times exp(-\alpha_1 y_i h_0 (xi))= 0.1\times(2\times exp(\ln2)+8\times exp(-\ln2)) = 0.8
+\end{equation*}
+\begin{equation*}
+D_1(i) = D_0(i)/z_0 \times  exp(-\alpha_1 y_i h_0 (xi)) =
+  \begin{cases}
+    0.1/0.8 \times 0.5 = \frac{1}{16} & \mbox{if } y_i h_0 (xi) = 1 \\
+    0.1/0.8 \times 2 = \frac{1}{4} & \mbox{otherwise}
+  \end{cases}   
+\end{equation*}
+\item[(d)]
+\begin{equation*}
+\epsilon_2 =  Pr_{D_1}[h_2(x_i) \lnot= y_i] =\frac{1}{16}\times4= \frac{1}{4}, \alpha_2 = \frac{1}{2} \ln{(1-\epsilon_2)/\epsilon_2} = \frac{1}{2}\ln3
+\end{equation*}
+Then, we combine $h_1$ and $h_2$ by $\alpha_i$:
+\begin{equation*}
+h_{final} =  \alpha_1h_1+\alpha_2h_2 = \ln2[x > 2] +\frac{1}{2}\ln3[y > 11]
+\end{equation*}
+
+
+
+
+

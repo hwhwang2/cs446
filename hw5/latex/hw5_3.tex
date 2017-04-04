@@ -1,0 +1,46 @@
+\item[(a)]
+	\begin{itemize}  
+	\item[i.]	
+	Expected number of children in a family in town A is \textbf{1} because each family has one child no matter a boy or a girl.\\
+	Expected number of children in a family in town B:
+	\begin{equation*}
+		f(i) = (1-p)^{n_i-1}p
+	\end{equation*}
+	where p is the probability of having a boy child, $n_i$ is the number of children in family i.
+	\begin{equation*}
+		L(f) = \prod_i (1-p)^{n_i-1}p, l(f)=\sum_i log(p)+(n_i-1)log(1-p)
+	\end{equation*}
+	To calculate maximum likelihood, we calculate derivative of it to be 0.
+	\begin{equation*}
+		\frac{\partial l(f)}{\partial p}= \sum_i \frac{1}{p}-\frac{(n_i-1)}{(1-p)}=\frac{N}{p}-\frac{\sum_in_i-N}{(1-p)}=0
+	\end{equation*}
+	\begin{equation*}
+		N(1-p)-(\sum_in_i-N)p=0\Rightarrow N = p\sum_in_i \Rightarrow \frac{\sum_in_i}{N} = \frac{1}{p} = 2
+	\end{equation*}
+	where N is total families. Thus, expected number of children in a family in B is \textbf{2}.  
+	\item[ii.]
+	The boy to girl ratio in town A is \textbf{1} because boy and girl have the same born rate. \\ 
+	The boy to girl ratio in town B:\\
+	The number of girls is $\sum (n_i-1)$, and the number of boys is N.	
+	In previous calculation, we know $\frac{\sum_in_i}{N} = \frac{1}{p} = 2$. Thus,
+	\begin{equation*}
+		\sum_i( n_i-1 )=  \sum_in_i - N = N
+	\end{equation*}
+	The boy to girl ratio in town B is \textbf{1}.
+	\end{itemize}
+\item[(b)]
+	\begin{itemize}  
+	\item[i.]
+	\begin{equation*}
+		P(A|B)=\frac{P(A \cap B)}{P(B)} = \frac{P(A \cap B)P(A)}{P(A)P(B)} 
+	\end{equation*}	
+	\begin{equation*}
+		\because P(A \cap B) = P(B \cap A) \Rightarrow P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+	\end{equation*}
+	\item[ii.]
+	\begin{equation*}
+		\because P(A|B) = \frac{P(A \cap B)}{P(B)}, P(B|C) = \frac{P(B\cap C)}{P(C)} \Rightarrow P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+	\end{equation*}
+
+	\end{itemize}
+

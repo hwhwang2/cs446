@@ -1,0 +1,29 @@
+\item[(a)]
+According to the slide, $
+\bf{w} = \sum_{(x_i,y_i) \in S} r\alpha_i x_iy_i,\mbox{ } y = sgn(\bf{w}^T x)
+$ where r is the learning rate, $\alpha_i$ is the number of mistakes on the example, $(x_i,y_i)$. 
+\item[(b)]
+    Polynomial kernels functions, $K(\bb{x},\bb{x}')$, are defined as following description: \\
+    1. Linear kernel: $K(\bb{x},\bb{x}') = \bb{x}\bb{x}'$. 2. Polynomial kernel of degree d: $K(\bb{x},\bb{x}') = (\bb{x}\bb{x}')^d$ (only dth-order interactions). 3. Polynomial kernel up to degree d: $K(\bb{x},\bb{x}') = (\bb{x}\bb{x}'+c)^d \ (c>0)$ (all interactions of order d or lower).\\ 
+    Besides, kernel functions, $K(\bb{x},\bb{x}')$, can be constructed by few methods: 1. Multiply by a constant. 2. Multiply by a function f applied to \bb{x} and \bb{x'}. 3. Applying a polynomial (with non-negative coefficients) to $K(\bb{x},\bb{x}')$. 4. Exponentiating k(\bb{x}, \bb{x'}). 5. Add it and the other kernel function together. 6. Multiply by the other kernel function.\\
+    According to the description of polynomial kernels, we get:
+    \begin{equation*}
+      K_1 = \vec{\bb{x}}^T\vec{\bb{z}}, K_2 = (\vec{\bb{x}}^T\vec{\bb{z}} + 4)^2, K_3 = (\vec{\bb{x}}^T\vec{\bb{z}})^3
+    \end{equation*}
+    According to the methods of constructing a kernel function, we can construct a kernel:    
+    \begin{equation*}
+      K' = K_3 + 49K_2 + 64K_1 = (\vec{\bb{x}}^T\vec{\bb{z}})^3 
+                                      + 49(\vec{\bb{x}}^T\vec{\bb{z}} + 4)^2 
+                                      + 64 \vec{\bb{x}}^T\vec{\bb{z}} = K'(\vec{\bb{x}},\vec{\bb{z}})
+    \end{equation*}
+    Thus, $K'(\vec{\bb{x}},\vec{\bb{z}})$ is a kernel.
+\item[(c)]
+\begin{equation*}
+  K(\vec{x},\vec{z}) = 
+  \begin{cases}
+    {\vec{x}^T\vec{z} \choose k} & \mbox{if } \vec{x}^T\vec{z} \ge k \\
+    0 & \mbox{otherwise}
+  \end{cases}  
+\end{equation*}
+It represents the inner product of monotone conjunctions containing exactly k different variables. The inner product $\vec{x}^T\vec{z}$ means the number both variables are 1 in $\vec{x}$ and $\vec{z}$, and the monotone conjunctions containing exactly k different variables can be calculated by $\vec{x}^T\vec{z}$ choosing k that picking out k matches from the total matches to form a conjunction. For example, let k = 2, and $\vec{x}$ and $\vec{z}$ have 4 matches of 1, $\{x_2, x_5, x_6, x_8\}$ and $\{z_2, z_5, z_6, z_8\}$. We get a set that the monotone conjunctions are 1 in both vectors, $\{x_2x_5, x_2x_6, x_2x_8, x_5x_6, x_5x_8, x_6x_8 \}$ and $\{z_2z_5, z_2z_6, z_2z_8, z_5z_6, z_5z_8, z_6z_8 \}$, by combining all possible pairs. Thus, the number of the monotone conjunctions which inner product is 1 is 4 choose 2. 
+This kernel can be computed in O(dm) that m means the number of the examples and d means the dimension of the vectors. Thus, this can be calculated in linear time.

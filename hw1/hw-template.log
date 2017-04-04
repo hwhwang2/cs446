@@ -1,0 +1,612 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.25)  3 FEB 2017 22:52
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**hw-template.tex
+(./hw-template.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./cs446.tex (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\c@theorem=\count87
+\c@corollary=\count88
+\c@lemma=\count89
+\c@claim=\count90
+\c@fact=\count91
+\c@definition=\count92
+\c@assumption=\count93
+\c@observation=\count94
+\c@example=\count95
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip10
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks15
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count108
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+
+LaTeX Warning: Unused global option(s):
+    [fullpage].
+
+(./hw-template.aux)
+\openout1 = `hw-template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen114
+\scratchbox=\box28
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen115
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Underfull \hbox (badness 10000) detected at line 15
+ []
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 32--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--46
+
+ []
+
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+
+ []
+
+
+Overfull \hbox (24.98352pt too wide) detected at line 55
+[][] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^R \OT1/cmr/m/n/12 = 0[]  \OMS/cmsy/m/
+n/12 ) []\OT1/cmr/m/n/12 ([] + \OML/cmm/m/it/12 a[]\OT1/cmr/m/n/12 ) + \OML/cmm
+/m/it/12 ^^R \OT1/cmr/m/n/12 = 0 \OMS/cmsy/m/n/12 ) []\OT1/cmr/m/n/12 ([] + \OM
+L/cmm/m/it/12 a[]\OT1/cmr/m/n/12 ) + \OML/cmm/m/it/12 ^^R \OT1/cmr/m/n/12 = 0 \
+OMS/cmsy/m/n/12 ) [][] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a\OMS/cmsy/m/n/12 k[]
+k[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^R \OT1/cmr/m/n/12 = 0
+ []
+
+[2]
+Overfull \hbox (23.73277pt too wide) detected at line 71
+[]\OML/cmm/m/it/12 y[] \OT1/cmr/m/n/12 = [] []([]\OML/cmm/m/it/12 ; ^^R[]\OT1/c
+mr/m/n/12 )[]\OML/cmm/m/it/12 y[]\OT1/cmr/m/n/12 ([][][] + \OML/cmm/m/it/12 ^^R
+[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^U \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \O
+MS/cmsy/m/n/12 8\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; y[]\OT1/cmr/m/n/12 ) \OMS
+/cmsy/m/n/12 2 \OML/cmm/m/it/12 D
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--112
+
+ []
+
+
+Overfull \hbox (18.12166pt too wide) detected at line 120
+[]\OML/cmm/m/it/12 y[]\OT1/cmr/m/n/12 ([][][] + \OML/cmm/m/it/12 ^^R[]\OT1/cmr/
+m/n/12 ) \OMS/cmsy/m/n/12 ^^U \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; []\OT1/cmr/m/
+n/12 ([]\OML/cmm/m/it/12 ; ^^R\OT1/cmr/m/n/12 )[]\OML/cmm/m/it/12 y[] \OT1/cmr/
+m/n/12 = [] \OMS/cmsy/m/n/12 8\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; y[]\OT1/cmr
+/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 D
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+[3
+
+]
+Overfull \hbox (8.65147pt too wide) detected at line 170
+[] \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ) [] [] \OML/cmm/m/it/12 ; ^^N \OMS/cm
+sy/m/n/12 ^^U \OT1/cmr/m/n/12 0
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.189 ..._{12} &  . & . & . & y_ix_{1m}& y_1 & 1 &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.190 ..._{22} &  . & . & . & y_2x_{2m}& y_2 & 1 &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.191 	. & . &  . & . & . & .& . & . &
+                                      
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.192 	. & . &  . & . & . & .& . & . &
+                                      
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.193 	. & . &  . & . & . & .& . & . &
+                                      
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.194 ..._{m2} &  . & . & . & y_mx_{mm}& y_m & 1 &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.195 	0 & 0 &  . & . & . & 0 & 0 & 1 &
+                                       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (51.73924pt too wide) detected at line 199
+[] \OT1/cmr/m/n/12 = [] \OML/cmm/m/it/12 ;  A \OT1/cmr/m/n/12 = [] \OML/cmm/m/i
+t/12 ; [] \OT1/cmr/m/n/12 = [] \OML/cmm/m/it/12 ;  [] \OT1/cmr/m/n/12 = []
+ []
+
+[4] <fig1.jpg, id=29, 562.1pt x 421.575pt>
+File: fig1.jpg Graphic file (type jpg)
+ <use fig1.jpg>
+Package pdftex.def Info: fig1.jpg used on input line 215.
+(pdftex.def)             Requested size: 449.68062pt x 337.26045pt.
+
+Overfull \hbox (35.15001pt too wide) in paragraph at lines 214--217
+[] 
+ []
+
+
+Overfull \hbox (68.247pt too wide) in paragraph at lines 218--222
+[]$[]$ \OT1/cmr/m/n/12 = $(2\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9104\OML/cmm/m/it
+/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 04
+98\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1775\OM
+L/cmm/m/it/12 ; \OT1/cmr/m/n/12 190\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5196\OML/c
+mm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1399\OML/cmm/m/
+it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 3\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 
+1010\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 :\
+OT1/cmr/m/n/12 9534\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 193\O
+ML/cmm/m/it/12 :\OT1/cmr/m/n/12 2778\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OML/cm
+m/m/it/12 :\OT1/cmr/m/n/12 1679\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/
+m/n/12 8\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 8942)$ 
+ []
+
+[5
+
+ <./fig1.jpg>] <fig2.jpg, id=34, 562.1pt x 421.575pt>
+File: fig2.jpg Graphic file (type jpg)
+ <use fig2.jpg>
+Package pdftex.def Info: fig2.jpg used on input line 228.
+(pdftex.def)             Requested size: 449.68062pt x 337.26045pt.
+
+<fig3.jpg, id=35, 562.1pt x 421.575pt>
+File: fig3.jpg Graphic file (type jpg)
+ <use fig3.jpg>
+Package pdftex.def Info: fig3.jpg used on input line 230.
+(pdftex.def)             Requested size: 449.68062pt x 337.26045pt.
+
+Overfull \hbox (35.15001pt too wide) in paragraph at lines 224--231
+[] 
+ []
+
+
+Overfull \hbox (35.15001pt too wide) in paragraph at lines 224--231
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--231
+
+ []
+
+[6
+
+ <./fig2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
+
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.237 	y_1 & 1 &
+                
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.238 	y_2 & 1 &
+                
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.239 	. & . &
+              
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.240 	. & . &
+              
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.241 	. & . &
+              
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.242 	y_m & 1 &
+                
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--250
+
+ []
+
+<fig4.jpg, id=39, 562.1pt x 421.575pt>
+File: fig4.jpg Graphic file (type jpg)
+ <use fig4.jpg>
+Package pdftex.def Info: fig4.jpg used on input line 251.
+(pdftex.def)             Requested size: 449.68062pt x 337.26045pt.
+
+Overfull \hbox (35.15001pt too wide) in paragraph at lines 251--252
+ [] 
+ []
+
+[7 <./fig3.jpg>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.253 I
+       n this script, we fix $\vec{w}$ and find $\theta$ to solve the linear...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[8 <./fig4.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 256--258
+
+ []
+
+<fig5.png, id=47, 478.78876pt x 560.0925pt>
+File: fig5.png Graphic file (type png)
+ <use fig5.png>
+Package pdftex.def Info: fig5.png used on input line 259.
+(pdftex.def)             Requested size: 383.03152pt x 448.0746pt.
+ [9
+
+ <./fig5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+
+ []
+
+<fig6.png, id=53, 502.87875pt x 207.77625pt>
+File: fig6.png Graphic file (type png)
+ <use fig6.png>
+Package pdftex.def Info: fig6.png used on input line 264.
+(pdftex.def)             Requested size: 402.30354pt x 166.2212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+<fig7.png, id=54, 396.48125pt x 226.8475pt>
+File: fig7.png Graphic file (type png)
+ <use fig7.png>
+Package pdftex.def Info: fig7.png used on input line 268.
+(pdftex.def)             Requested size: 317.18542pt x 181.47824pt.
+ [10
+
+ <./fig6.png> <./fig7.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+<fig8.png, id=60, 560.0925pt x 584.1825pt>
+File: fig8.png Graphic file (type png)
+ <use fig8.png>
+Package pdftex.def Info: fig8.png used on input line 273.
+(pdftex.def)             Requested size: 448.0746pt x 467.34662pt.
+
+Overfull \hbox (7.6943pt too wide) in paragraph at lines 273--274
+ [] 
+ []
+
+[11
+
+ <./fig8.png>] (./hw-template.aux) ) 
+Here is how much of TeX's memory you used:
+ 2477 strings out of 493089
+ 32529 string characters out of 6134842
+ 103488 words of memory out of 5000000
+ 5924 multiletter control sequences out of 15000+600000
+ 9758 words of font info for 37 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,10n,24p,893b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsl12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmtt12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msam10.pfb>
+Output written on hw-template.pdf (11 pages, 356932 bytes).
+PDF statistics:
+ 113 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+

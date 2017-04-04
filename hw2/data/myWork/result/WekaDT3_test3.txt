@@ -1,0 +1,33 @@
+ID3
+
+lastName2=l = 1
+|  firstName2=r = 1: -
+|  firstName2=r = 0
+|  |  firstName2=m = 1: -
+|  |  firstName2=m = 0: +
+lastName2=l = 0
+|  lastName2=o = 1
+|  |  firstName0=d = 1: -
+|  |  firstName0=d = 0
+|  |  |  firstName2=l = 1: -
+|  |  |  firstName2=l = 0: +
+|  lastName2=o = 0
+|  |  firstName3=f = 1: +
+|  |  firstName3=f = 0
+|  |  |  lastName0=m = 1
+|  |  |  |  firstName0=n = 1: -
+|  |  |  |  firstName0=n = 0: +
+|  |  |  lastName0=m = 0
+|  |  |  |  lastName1=l = 1: +
+|  |  |  |  lastName1=l = 0: -
+
+
+Correctly Classified Instances          48               72.7273 %
+Incorrectly Classified Instances        18               27.2727 %
+Kappa statistic                          0.409 
+Mean absolute error                      0.3812
+Root mean squared error                  0.4582
+Relative absolute error                 78.7652 %
+Root relative squared error             93.1911 %
+Total Number of Instances               66     
+

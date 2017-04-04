@@ -1,0 +1,115 @@
+ Replace \textit{Entropy} with \textit{MajorityError}.
+For the first layer :\\
+Choosing \texttt{Color}:
+\begin{equation*}
+	Gain = MajorityError(S) - \sum \frac{|S_v|}{|S|}MajorityError(S_v)=
+\end{equation*}
+\begin{equation*}
+	\frac{7}{16} - (\frac{8}{16}\times\frac{3}{8}+ \frac{8}{16}\times\frac{2}{8}) = \frac{7}{16} - \frac{5}{16}
+\end{equation*}
+Choosing \texttt{Size}:
+\begin{equation*}
+	Gain = \frac{7}{16} - (\frac{8}{16}\times\frac{3}{8}+ \frac{8}{16}\times\frac{2}{8}) = \frac{7}{16} - \frac{5}{16}
+\end{equation*}
+Choosing \texttt{Act}:
+\begin{equation*}
+	Gain = \frac{7}{16} - (\frac{8}{16}\times\frac{2}{8}+ \frac{8}{16}\times\frac{3}{8}) = \frac{7}{16} - \frac{5}{16}
+\end{equation*}
+Choosing \texttt{Age}:
+\begin{equation*}
+	Gain = \frac{7}{16} - (\frac{8}{16}\times\frac{2}{8}+ \frac{8}{16}\times\frac{3}{8}) = \frac{7}{16} - \frac{5}{16}
+\end{equation*}
+All the gains are the same. Choose \texttt{Color} as the splitting attribute.\\
+For the second layer at \texttt{Color} = Blue:\\
+Choosing \texttt{Size}:
+\begin{equation*}
+	Gain = \frac{3}{8} - \frac{1}{8}
+\end{equation*}
+Choosing \texttt{Act}:
+\begin{equation*}
+	Gain = \frac{3}{8} - \frac{3}{8}
+\end{equation*}
+Choosing \texttt{Age}:
+\begin{equation*}
+	Gain = \frac{3}{8} - \frac{3}{8}
+\end{equation*}
+Choose \texttt{Size} as the splitting attribute.\\
+For the second layer at \texttt{Color} = Red:\\
+Choosing \texttt{Size}:
+\begin{equation*}
+	Gain = \frac{2}{8} - \frac{2}{8}
+\end{equation*}
+Choosing \texttt{Act}:
+\begin{equation*}
+	Gain = \frac{2}{8} - \frac{2}{8}
+\end{equation*}
+Choosing \texttt{Age}:
+\begin{equation*}
+	Gain = \frac{2}{8} - \frac{2}{8}
+\end{equation*}
+All the gains are the same. Choose \texttt{Size} as the splitting attribute.\\
+For the third layer at \texttt{Color} = Blue, \texttt{Size} = Large:\\
+Choosing \texttt{Act}:
+\begin{equation*}
+	Gain = \frac{1}{4} - \frac{1}{4}
+\end{equation*}
+Choosing \texttt{Age}:
+\begin{equation*}
+	Gain = \frac{1}{4} - \frac{1}{4}
+\end{equation*}
+All the gains are the same. Choose \texttt{Act} as the splitting attribute.\\
+For the third layer at \texttt{Color} = Blue, \texttt{Size} = small, there is no need to split. The label of the node is F.
+
+For the third layer at \texttt{Color} = Red, \texttt{Size} = Large:\\
+Choosing \texttt{Act}:
+\begin{equation*}
+	Gain = \frac{1}{4} - \frac{1}{4}
+\end{equation*}
+Choosing \texttt{Age}:
+\begin{equation*}
+	Gain = \frac{1}{4} - \frac{1}{4}
+\end{equation*}
+All the gains are the same. Choose \texttt{Act} as the splitting attribute.\\
+For the third layer at \texttt{Color} = Red, \texttt{Size} = Small:\\
+Choosing \texttt{Act}:
+\begin{equation*}
+	Gain = \frac{1}{4} - \frac{1}{4}
+\end{equation*}
+Choosing \texttt{Age}:
+\begin{equation*}
+	Gain = \frac{1}{4} - \frac{1}{4}
+\end{equation*}
+All the gains are the same. Choose \texttt{Act} as the splitting attribute. For the forth layer at \texttt{Color} = Blue, \texttt{Size} = Large, \texttt{Act} = Dip, all the labels are Ts. Thus, the label of this node is set as T. For the forth layer at \texttt{Color} = Blue, \texttt{Size} = Large, \texttt{Act} = Stretch. Choose the only attribute, \texttt{Age}, as the splitting attribute. The label of the node \texttt{Age} = Adult is F and the other is T. For the forth layer at \texttt{Color} = Red, \texttt{Size} = Large, \texttt{Act} = Dip, all the labels are Ts. Thus, the label of this node is set as T. For the forth layer at \texttt{Color} = Red, \texttt{Size} = Large, \texttt{Act} = Stretch. Choose the only attribute, \texttt{Age}, as the splitting attribute. The label of the node \texttt{Age} = Adult is F and the other is T. For the forth layer at \texttt{Color} = Red, \texttt{Size} = Small, \texttt{Act} = Dip, all the labels are Ts. Thus, the label of this node is set as T. For the forth layer at \texttt{Color} = Red, \texttt{Size} = Small, \texttt{Act} = Stretch. Choose the only attribute, \texttt{Age}, as the splitting attribute. The label of the node \texttt{Age} = Adult is F and the other is T. Thus, The decision tree:
+\begin{verbatim}
+if Color = Blue :
+  if Size = Large :
+    if Act = Dip :
+      class = T
+    if Act != Dip :
+      if Age = Adult :
+        class = F
+      if Age != Adult :
+        class = T  
+  if Size != Large :
+    class = F
+if Color != Blue :
+  if Size = Large :
+    if Act = Dip :
+      class = T
+    if Act != Dip :
+      if Age = Adult :
+        class = F
+      if Age != Adult :
+        class = T  
+  if Size != Large :
+    if Act = Dip :
+      class = T
+    if Act != Dip :
+      if Age = Adult :
+        class = F
+      if Age != Adult :
+        class = T      
+\end{verbatim}
+
+
+

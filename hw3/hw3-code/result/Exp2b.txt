@@ -1,0 +1,6 @@
+File	Perceptron	Perceptron w Margin	Winnow	Winnow w Margin	AdaGrad
+Input file path: ./data/10_20_40_50000_False	946	4296	152	259	2125
+Input file path: ./data/10_20_80_50000_False	1879	5171	267	335	3193
+Input file path: ./data/10_20_120_50000_False	2957	6580	347	405	5417
+Input file path: ./data/10_20_160_50000_False	3959	7807	411	455	7554
+Input file path: ./data/10_20_200_50000_False	4872	8884	451	488	8726

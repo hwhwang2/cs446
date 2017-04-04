@@ -1,0 +1,55 @@
+ID3
+
+lastName2=l = 1
+|  firstName2=r = 1: -
+|  firstName2=r = 0
+|  |  firstName2=m = 1: -
+|  |  firstName2=m = 0: +
+lastName2=l = 0
+|  lastName2=o = 1
+|  |  firstName0=d = 1: -
+|  |  firstName0=d = 0
+|  |  |  firstName2=l = 1: -
+|  |  |  firstName2=l = 0: +
+|  lastName2=o = 0
+|  |  firstName3=f = 1: +
+|  |  firstName3=f = 0
+|  |  |  lastName0=m = 1
+|  |  |  |  firstName0=n = 1: -
+|  |  |  |  firstName0=n = 0
+|  |  |  |  |  firstName0=p = 1: -
+|  |  |  |  |  firstName0=p = 0
+|  |  |  |  |  |  lastName1=a = 1
+|  |  |  |  |  |  |  firstName0=y = 1: -
+|  |  |  |  |  |  |  firstName0=y = 0
+|  |  |  |  |  |  |  |  firstName1=t = 1: -
+|  |  |  |  |  |  |  |  firstName1=t = 0: +
+|  |  |  |  |  |  lastName1=a = 0: +
+|  |  |  lastName0=m = 0
+|  |  |  |  lastName1=l = 1: +
+|  |  |  |  lastName1=l = 0
+|  |  |  |  |  lastName1=t = 1: +
+|  |  |  |  |  lastName1=t = 0
+|  |  |  |  |  |  firstName1=o = 1
+|  |  |  |  |  |  |  lastName1=o = 1: +
+|  |  |  |  |  |  |  lastName1=o = 0
+|  |  |  |  |  |  |  |  firstName3=a = 1: -
+|  |  |  |  |  |  |  |  firstName3=a = 0: +
+|  |  |  |  |  |  firstName1=o = 0
+|  |  |  |  |  |  |  firstName4=o = 1
+|  |  |  |  |  |  |  |  firstName0=m = 1: -
+|  |  |  |  |  |  |  |  firstName0=m = 0: +
+|  |  |  |  |  |  |  firstName4=o = 0
+|  |  |  |  |  |  |  |  lastName3=m = 1: +
+|  |  |  |  |  |  |  |  lastName3=m = 0: -
+
+
+Correctly Classified Instances          47               71.2121 %
+Incorrectly Classified Instances        19               28.7879 %
+Kappa statistic                          0.4011
+Mean absolute error                      0.3487
+Root mean squared error                  0.476 
+Relative absolute error                 72.0616 %
+Root relative squared error             96.8092 %
+Total Number of Instances               66     
+
